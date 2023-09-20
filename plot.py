@@ -12,4 +12,4 @@ args = parser.parse_args()
 
 data = np.loadtxt(args.i)
 plt.plot(data[:, 0], data[:, 1])
-plt.savefig(args.o)
+plt.savefig(args.o) 
